@@ -5,6 +5,9 @@ os:
   - linux
   - osx
 
+before_install:
+  - apt-get update -qq
+
 install:
   - pip install ansible
 
