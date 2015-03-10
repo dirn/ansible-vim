@@ -1,0 +1,2 @@
+- name: Install MacVim
+  homebrew: name=macvim state=present

@@ -4,3 +4,9 @@
 
 - include: osx/vim.yml
   when: ansible_os_family == 'Darwin'
+
+- include: debian/gvim.yml
+  when: vim_install_gvim and ansible_os_family == 'Debian'
+
+- include: osx/gvim.yml
+  when: vim_install_gvim and ansible_os_family == 'Darwin'

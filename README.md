@@ -16,7 +16,9 @@ for a role to handle it for you, check out
 Role Variables
 --------------
 
-None.
+To install gVim (MacVim on OSX):
+
+    vim_install_gvim: true
 
 Dependencies
 ------------
