@@ -18,11 +18,11 @@ Role Variables
 
 Several variables are available to configure the role.
 
-To install gVim (MacVim on OSX):
+To control if gVim (MacVim on OSX) is installed:
 
     vim_install_gvim: true
 
-To control if Neovim is installed:
+To control if [Neovim](http://neovim.org/) is installed:
 
     vim_install_nvim: false
 
