@@ -1,3 +1,4 @@
+---
 - name: Install Homebrew tap for Neovim
   homebrew_tap: tap=neovim/neovim state=present
 

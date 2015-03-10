@@ -1,3 +1,4 @@
+---
 - name: Install repository for Neovim
   apt_repository: repo='ppa:neovim-ppa/unstable' state=present
 
