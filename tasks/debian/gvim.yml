@@ -1,3 +1,4 @@
 ---
 - name: Install gVim
+  sudo: yes
   apt: pkg=vim-gnome state=present

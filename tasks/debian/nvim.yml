@@ -1,6 +1,8 @@
 ---
 - name: Install repository for Neovim
+  sudo: yes
   apt_repository: repo='ppa:neovim-ppa/unstable' state=present
 
 - name: Install Neovim
+  sudo: yes
   apt: pkg=neovim state=present
