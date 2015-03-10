@@ -1,0 +1,4 @@
+---
+- name: Install Pathogen
+  command: curl -LSso ~/.vim/autoload/pathogen.vim --create-dirs \
+    https://tpo.pe/pathogen.vim

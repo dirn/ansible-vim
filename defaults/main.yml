@@ -1,3 +1,8 @@
 ---
 vim_install_gvim: true
 vim_install_nvim: false
+
+vim_install_neobundle: false
+vim_install_pathogen: false
+vim_install_plug: false
+vim_install_vundle: false

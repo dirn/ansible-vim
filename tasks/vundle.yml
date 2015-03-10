@@ -1,0 +1,3 @@
+---
+- name: Install Vundle
+  git: repo=git@github.com:gmarik/Vundle.vim dest=~/.vim/bundle/Vundle.vim update=no

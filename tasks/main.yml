@@ -16,3 +16,15 @@
 
 - include: osx/nvim.yml
   when: vim_install_nvim and ansible_os_family == 'Darwin'
+
+- include: neobundle.yml
+  when: vim_install_neobundle
+
+- include: pathogen.yml
+  when: vim_install_pathogen
+
+- include: plug.yml
+  when: vim_install_plug
+
+- include: vundle.yml
+  when: vim_install_vundle

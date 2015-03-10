@@ -22,9 +22,25 @@ To install gVim (MacVim on OSX):
 
     vim_install_gvim: true
 
-To install Neovim:
+To control if Neovim is installed:
 
     vim_install_nvim: false
+
+To control if [NeoBundle](https://github.com/Shougo/neobundle.vim) is installed:
+
+    vim_install_neobundle: false
+
+To control if [Pathogen](https://github.com/tpope/vim-pathogen) is installed:
+
+    vim_install_pathogen: false
+
+To control if [Plug](https://github.com/junegunn/vim-plug) is installed:
+
+    vim_install_plug: false
+
+To control if [Vundle](https://github.com/gmarik/Vundle.vim) is installed:
+
+    vim_install_vundle: false
 
 Dependencies
 ------------
