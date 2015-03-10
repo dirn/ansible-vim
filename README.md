@@ -53,6 +53,9 @@ Example Playbook
     - hosts: servers
       roles:
          - role: dirn.vim
+           vim_install_gvim: true
+           vim_install_nvim: true
+           vim_install_neobundle: true
 
 License
 -------
