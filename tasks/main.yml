@@ -10,3 +10,9 @@
 
 - include: osx/gvim.yml
   when: vim_install_gvim and ansible_os_family == 'Darwin'
+
+- include: debian/nvim.yml
+  when: vim_install_nvim and ansible_os_family == 'Debian'
+
+- include: osx/nvim.yml
+  when: vim_install_nvim and ansible_os_family == 'Darwin'

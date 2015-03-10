@@ -16,9 +16,15 @@ for a role to handle it for you, check out
 Role Variables
 --------------
 
+Several variables are available to configure the role.
+
 To install gVim (MacVim on OSX):
 
     vim_install_gvim: true
+
+To install Neovim:
+
+    vim_install_nvim: false
 
 Dependencies
 ------------

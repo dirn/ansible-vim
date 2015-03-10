@@ -2,4 +2,5 @@
 - hosts: localhost
   remote_user: root
   roles:
-    - ansible-vim
+    - role: ansible-vim
+      vim_install_nvim: true
