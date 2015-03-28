@@ -1,21 +1,11 @@
 ---
-- include: debian/vim.yml
-  when: ansible_os_family == 'Debian'
+- include: vim.yml
 
-- include: osx/vim.yml
-  when: ansible_os_family == 'Darwin'
+- include: gvim.yml
+  when: vim_install_gvim
 
-- include: debian/gvim.yml
-  when: vim_install_gvim and ansible_os_family == 'Debian'
-
-- include: osx/gvim.yml
-  when: vim_install_gvim and ansible_os_family == 'Darwin'
-
-- include: debian/nvim.yml
-  when: vim_install_nvim and ansible_os_family == 'Debian'
-
-- include: osx/nvim.yml
-  when: vim_install_nvim and ansible_os_family == 'Darwin'
+- include: nvim.yml
+  when: vim_install_nvim
 
 - include: neobundle.yml
   when: vim_install_neobundle

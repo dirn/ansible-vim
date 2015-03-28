@@ -1,0 +1,6 @@
+---
+- include: debian/nvim.yml
+  when: ansible_os_family == 'Debian'
+
+- include: osx/nvim.yml
+  when: ansible_os_family == 'Darwin'
